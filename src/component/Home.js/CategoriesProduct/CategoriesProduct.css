@@ -1,0 +1,38 @@
+.cate img{
+    height: 40rem !important;
+}
+
+.category-img{
+    position: relative;
+}
+.category-text{
+    position: absolute;
+    top: 2rem;
+}
+.category-text {
+    position: absolute;
+    top: 5rem;
+    width: 70%;
+    padding: 2rem 4rem;
+}
+.category-text h3{
+    color: var(--blue);
+    font-size: 2.5rem;
+}
+.category-text h5{
+    font-size: 5rem;
+    color: var(--yellow);
+    font-weight: bold;
+}
+.category-text button{
+    margin-top: 3rem;
+    padding: .7rem 3rem;
+    background: var(--blue);
+    border-radius: 3rem;
+    color: #fff;
+    transition: all ease 0.3s;
+}
+.category-text button:hover{
+    background: var(--yellow);
+    color: #fff;
+}

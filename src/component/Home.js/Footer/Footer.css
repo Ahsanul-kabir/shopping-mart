@@ -1,0 +1,15 @@
+footer{
+    color: var(--blue) !important;
+    padding: 3rem 0;
+}
+footer a{
+    display: block;
+    color: var(--blue);
+    font-size: 1.5rem;
+    transition: ease 0.3s;
+    margin: 1rem 0;
+}
+footer a:hover{
+    display: block;
+    color: var(--yellow);
+}

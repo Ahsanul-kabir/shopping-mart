@@ -1,0 +1,22 @@
+html{font-size: 62.5%;}
+section{
+    padding: 5rem 0;
+}
+:focus{outline: none;}
+a{text-decoration: none;}
+:root {
+    --blue: #103178;
+    --yellow: #ff9923;
+  }
+  .btn-style{
+      background: #ff9923;
+      color: #fff;
+      padding: 1rem 4rem;
+      transition: ease 0.3s;
+      border-radius: 5rem;
+      font-size: 1.5rem;
+  }
+  .btn-style:hover{
+    background: #103178;
+    color: #fff;
+}
