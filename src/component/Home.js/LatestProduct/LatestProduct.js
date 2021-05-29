@@ -9,7 +9,7 @@ import { faStar, faStarHalfAlt } from '@fortawesome/free-solid-svg-icons';
 const LatestProduct = () => {
     return (
         <section className="bg-light latest-product">
-            <div className="container">
+            <div className="container-fluid">
                 <div className="row">
                     <h1 className="text-center">Latest products</h1>
                     <div className="col-lg-2 col-md-4">
