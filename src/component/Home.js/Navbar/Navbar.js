@@ -1,5 +1,6 @@
 import React from 'react';
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCartPlus } from '@fortawesome/free-solid-svg-icons';
 const Navbar = () => {
     return (
         <div>
@@ -23,6 +24,7 @@ const Navbar = () => {
                             <li class="nav-item">
                                 <a class="nav-link" href="/login" tabindex="-1" >Login</a>
                             </li>
+                            <FontAwesomeIcon className="text-light" icon={faCartPlus} />
                         </ul>
                     </div>
                 </div>

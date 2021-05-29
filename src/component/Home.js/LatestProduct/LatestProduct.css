@@ -1,0 +1,39 @@
+.latest-product img{
+    width: 100%;
+    height: 17rem;
+    object-fit: cover;
+    background: #f1eeee;
+}
+.price{
+    color: var(--yellow);
+    padding: 1rem 0;
+}
+.old-price{color: #afa9a9;}
+.product-name{
+    font-size: 1.6rem;
+    transition: 0.3s ease-in-out;
+    font-weight: 600;
+}
+.product-name:hover{
+    color: var(--yellow);
+}
+.star{
+    color: var(--yellow);
+    text-align: center;
+    padding: 1rem 0 0 0;
+    font-size: 1.5rem;
+}
+.latest{
+    border: .1rem solid #ebe9e9;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+.latest-product button{
+    background: var(--yellow);
+    color: #fff;
+    margin: .5rem 0;
+}
+.latest-product button:hover{
+    background: var(--blue);
+    color: #fff;
+}

@@ -1,5 +1,8 @@
 import React from 'react';
 import './Footer.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faGlobe } from '@fortawesome/free-solid-svg-icons';
+import { faGithub, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 const Footer = () => {
     return (
         <footer>
@@ -34,15 +37,16 @@ const Footer = () => {
                         <p>Monday - Friday: 9:00 - 20:00</p>
                         <p>Saturday: 11:00 - 15:00</p>
                         <button className="btn">Contact@example.com</button>
+                        
                     </div>
                     <div className="col-lg-2">
                         <h3>Our store</h3>
                         <p>Moulvibazar, 3200</p>
                         <div className="footer-social">
-                            <a href="https://enamulhaque.dev"></a>
-                            <a href="https://linkedin.com/in/enamulhaquee"></a>
-                            <a href="https://github.com/enamulhaque7"></a>
-                            <a href="https://instagram.com/enamulhaque.dev"></a>
+                            <a href="https://enamulhaque.dev"><FontAwesomeIcon icon={faGlobe} /></a>
+                            <a href="https://linkedin.com/in/enamulhaquee"><FontAwesomeIcon icon={faLinkedin} /></a>
+                            <a href="https://github.com/enamulhaque7"><FontAwesomeIcon icon={faGithub} /></a>
+                            <a href="https://instagram.com/enamulhaque.dev"><FontAwesomeIcon icon={faInstagram} /></a>
                         </div>
                     </div>
                 </div>

@@ -1,5 +1,8 @@
 .cate img{
-    height: 40rem !important;
+    height: 30rem !important;
+    width: 40rem;
+    background: #fafafa;
+    margin-top: 2rem;
 }
 
 .category-img{
@@ -24,13 +27,16 @@
     color: var(--yellow);
     font-weight: bold;
 }
-.category-text button{
+.category-text button,
+.latest-product button{
     margin-top: 3rem;
-    padding: .7rem 3rem;
+    padding: .5rem 2rem;
     background: var(--blue);
     border-radius: 3rem;
     color: #fff;
     transition: all ease 0.3s;
+    font-size: 1.5rem;
+    font-weight: 600;
 }
 .category-text button:hover{
     background: var(--yellow);

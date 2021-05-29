@@ -3,7 +3,7 @@ section{
     padding: 5rem 0;
 }
 :focus{outline: none;}
-a{text-decoration: none;}
+a{text-decoration: none;color:#103178}
 :root {
     --blue: #103178;
     --yellow: #ff9923;
