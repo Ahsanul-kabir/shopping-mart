@@ -132,14 +132,59 @@ footer {
 .button.primary {
   background-color: #f0c040;
 }
+/*.filter {
+  display: flex;
+  justify-content: space-between;
+  paddin
+.button.primary {
+  background-color: #f0c040;
+}
+<<<<<<< HEAD
 /* Filter */
 .filter {
   display: flex;
-  justify-content: space-between;
+  tent: space-between;
   padding: 1rem;
   margin: 1rem;
   border-bottom: 0.1rem #c0c0c0 solid;
 }
 .filter div {
   flex: 1;
+=======
+
+
+/* Order Details */
+
+.order-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
 }
+.order-details li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.order-details li div {
+  padding: 10px;
+}
+.order-details .items {
+  text-align: right;
+  padding: 0;
+}
+.success-message {
+  color: green;
+}
+/* Orders */
+.orders {
+  width: 100%; {
+  background-color: #f0f0f0;
+}
+td {
+  padding: 5px;
+}
+th {
+  text-align: left;
+>>>>>>> 82e7f83df280fe2b458ff3b24b59159ae37b9a9e
