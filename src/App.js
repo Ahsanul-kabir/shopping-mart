@@ -1,30 +1,26 @@
-import React from "react";
-import store from "./store";
-import { Provider } from "react-redux";
-import { BrowserRouter, Route, Link } from "react-router-dom";
-import HomeScreen from "./screens/HomeScreen";
-import AdminScreen from "./screens/AdminScreen";
+import logo from './logo.svg';
+import './App.css';
+import Home from './components/Home/Home';
+import { useSelector } from "react-redux";
+import { selectSignedIn } from "./features/userSlice";
+import Navbar from './components/Navbar/Navbar';
+import News from './components/News/News';
 
-class App extends React.Component {
-  render() {
-    return (
-      <Provider store={store}>
-        <BrowserRouter>
-          <div className="grid-container">
-            <header>
-              <Link to="/">React Shopping Cart</Link>
-              <Link to="/admin">Admin</Link>
-            </header>
-            <main>
-              <Route path="/admin" component={AdminScreen} />
-              <Route path="/" component={HomeScreen} exact />
-            </main>
-            <footer>All right is reserved.</footer>
-          </div>
-        </BrowserRouter>
-      </Provider>
-    );
-  }
+
+function App() {
+
+  const isSignedIn = useSelector(selectSignedIn);
+
+  return (
+
+    <div className="App">
+      
+      <Navbar/>
+      <Home/>
+      {isSignedIn && <News/>}
+    </div>
+
+  );
 }
 
 export default App;
